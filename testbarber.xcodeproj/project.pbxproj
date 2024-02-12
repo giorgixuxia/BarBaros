@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D00EC4BF2B72AD2200F4BC26 /* testbarberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4BE2B72AD2200F4BC26 /* testbarberApp.swift */; };
+		D00EC4C12B72AD2200F4BC26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4C02B72AD2200F4BC26 /* ContentView.swift */; };
+		D00EC4C32B72AD2500F4BC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00EC4C22B72AD2500F4BC26 /* Assets.xcassets */; };
+		D00EC4C62B72AD2500F4BC26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00EC4C52B72AD2500F4BC26 /* Preview Assets.xcassets */; };
+		D00EC4D02B72AD2500F4BC26 /* testbarberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4CF2B72AD2500F4BC26 /* testbarberTests.swift */; };
+		D00EC4DA2B72AD2500F4BC26 /* testbarberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4D92B72AD2500F4BC26 /* testbarberUITests.swift */; };
+		D00EC4DC2B72AD2500F4BC26 /* testbarberUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4DB2B72AD2500F4BC26 /* testbarberUITestsLaunchTests.swift */; };
+		D00EC4EA2B72B24200F4BC26 /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4E92B72B24200F4BC26 /* OptionsView.swift */; };
+		D00EC4EC2B72B2D600F4BC26 /* SalonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4EB2B72B2D600F4BC26 /* SalonView.swift */; };
+		D00EC4EE2B72B2EE00F4BC26 /* TattooParlorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4ED2B72B2EE00F4BC26 /* TattooParlorView.swift */; };
+		D00EC4F02B72B30400F4BC26 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4EF2B72B30400F4BC26 /* ShopView.swift */; };
+		D00EC4F22B72E2E500F4BC26 /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4F12B72E2E500F4BC26 /* Persons.swift */; };
+		D00EC4F52B7A89EF00F4BC26 /* SalonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4F42B7A89EF00F4BC26 /* SalonDetailView.swift */; };
+		D00EC4FA2B7A906200F4BC26 /* Salon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4F92B7A906200F4BC26 /* Salon.swift */; };
+		D00EC4FC2B7A909300F4BC26 /* Rows.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC4FB2B7A909300F4BC26 /* Rows.swift */; };
+		D00EC5032B7AAA6200F4BC26 /* DateChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC5022B7AAA6200F4BC26 /* DateChooserView.swift */; };
+		D00EC5052B7AAE8400F4BC26 /* Tatoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC5042B7AAE8400F4BC26 /* Tatoo.swift */; };
+		D00EC5072B7AAEB100F4BC26 /* TatooRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC5062B7AAEB100F4BC26 /* TatooRow.swift */; };
+		D00EC5092B7AAEF300F4BC26 /* TatooDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00EC5082B7AAEF300F4BC26 /* TatooDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D00EC4CC2B72AD2500F4BC26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00EC4B32B72AD2200F4BC26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D00EC4BA2B72AD2200F4BC26;
+			remoteInfo = testbarber;
+		};
+		D00EC4D62B72AD2500F4BC26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00EC4B32B72AD2200F4BC26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D00EC4BA2B72AD2200F4BC26;
+			remoteInfo = testbarber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D00EC4BB2B72AD2200F4BC26 /* testbarber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testbarber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00EC4BE2B72AD2200F4BC26 /* testbarberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testbarberApp.swift; sourceTree = "<group>"; };
+		D00EC4C02B72AD2200F4BC26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D00EC4C22B72AD2500F4BC26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D00EC4C52B72AD2500F4BC26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D00EC4CB2B72AD2500F4BC26 /* testbarberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testbarberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00EC4CF2B72AD2500F4BC26 /* testbarberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testbarberTests.swift; sourceTree = "<group>"; };
+		D00EC4D52B72AD2500F4BC26 /* testbarberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testbarberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00EC4D92B72AD2500F4BC26 /* testbarberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testbarberUITests.swift; sourceTree = "<group>"; };
+		D00EC4DB2B72AD2500F4BC26 /* testbarberUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testbarberUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D00EC4E92B72B24200F4BC26 /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		D00EC4EB2B72B2D600F4BC26 /* SalonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonView.swift; sourceTree = "<group>"; };
+		D00EC4ED2B72B2EE00F4BC26 /* TattooParlorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattooParlorView.swift; sourceTree = "<group>"; };
+		D00EC4EF2B72B30400F4BC26 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		D00EC4F12B72E2E500F4BC26 /* Persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
+		D00EC4F42B7A89EF00F4BC26 /* SalonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonDetailView.swift; sourceTree = "<group>"; };
+		D00EC4F92B7A906200F4BC26 /* Salon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salon.swift; sourceTree = "<group>"; };
+		D00EC4FB2B7A909300F4BC26 /* Rows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rows.swift; sourceTree = "<group>"; };
+		D00EC5022B7AAA6200F4BC26 /* DateChooserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateChooserView.swift; sourceTree = "<group>"; };
+		D00EC5042B7AAE8400F4BC26 /* Tatoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tatoo.swift; sourceTree = "<group>"; };
+		D00EC5062B7AAEB100F4BC26 /* TatooRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatooRow.swift; sourceTree = "<group>"; };
+		D00EC5082B7AAEF300F4BC26 /* TatooDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatooDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00EC4B82B72AD2200F4BC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00EC4C82B72AD2500F4BC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00EC4D22B72AD2500F4BC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00EC4B22B72AD2200F4BC26 = {
+			isa = PBXGroup;
+			children = (
+				D00EC4BD2B72AD2200F4BC26 /* testbarber */,
+				D00EC4CE2B72AD2500F4BC26 /* testbarberTests */,
+				D00EC4D82B72AD2500F4BC26 /* testbarberUITests */,
+				D00EC4BC2B72AD2200F4BC26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D00EC4BC2B72AD2200F4BC26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D00EC4BB2B72AD2200F4BC26 /* testbarber.app */,
+				D00EC4CB2B72AD2500F4BC26 /* testbarberTests.xctest */,
+				D00EC4D52B72AD2500F4BC26 /* testbarberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00EC4BD2B72AD2200F4BC26 /* testbarber */ = {
+			isa = PBXGroup;
+			children = (
+				D00EC4F82B7A905100F4BC26 /* Models */,
+				D00EC4F32B7A89D600F4BC26 /* Details */,
+				D00EC4E82B72B21400F4BC26 /* Views */,
+				D00EC4BE2B72AD2200F4BC26 /* testbarberApp.swift */,
+				D00EC4C02B72AD2200F4BC26 /* ContentView.swift */,
+				D00EC4C22B72AD2500F4BC26 /* Assets.xcassets */,
+				D00EC4C42B72AD2500F4BC26 /* Preview Content */,
+				D00EC4FF2B7AA38E00F4BC26 /* RRows */,
+			);
+			path = testbarber;
+			sourceTree = "<group>";
+		};
+		D00EC4C42B72AD2500F4BC26 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D00EC4C52B72AD2500F4BC26 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D00EC4CE2B72AD2500F4BC26 /* testbarberTests */ = {
+			isa = PBXGroup;
+			children = (
+				D00EC4CF2B72AD2500F4BC26 /* testbarberTests.swift */,
+			);
+			path = testbarberTests;
+			sourceTree = "<group>";
+		};
+		D00EC4D82B72AD2500F4BC26 /* testbarberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D00EC4D92B72AD2500F4BC26 /* testbarberUITests.swift */,
+				D00EC4DB2B72AD2500F4BC26 /* testbarberUITestsLaunchTests.swift */,
+			);
+			path = testbarberUITests;
+			sourceTree = "<group>";
+		};
+		D00EC4E82B72B21400F4BC26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D00EC4E92B72B24200F4BC26 /* OptionsView.swift */,
+				D00EC4EB2B72B2D600F4BC26 /* SalonView.swift */,
+				D00EC4ED2B72B2EE00F4BC26 /* TattooParlorView.swift */,
+				D00EC4EF2B72B30400F4BC26 /* ShopView.swift */,
+				D00EC4F12B72E2E500F4BC26 /* Persons.swift */,
+				D00EC5022B7AAA6200F4BC26 /* DateChooserView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D00EC4F32B7A89D600F4BC26 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				D00EC4F42B7A89EF00F4BC26 /* SalonDetailView.swift */,
+				D00EC5082B7AAEF300F4BC26 /* TatooDetailView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		D00EC4F82B7A905100F4BC26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D00EC4F92B7A906200F4BC26 /* Salon.swift */,
+				D00EC5042B7AAE8400F4BC26 /* Tatoo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D00EC4FF2B7AA38E00F4BC26 /* RRows */ = {
+			isa = PBXGroup;
+			children = (
+				D00EC4FB2B7A909300F4BC26 /* Rows.swift */,
+				D00EC5062B7AAEB100F4BC26 /* TatooRow.swift */,
+			);
+			path = RRows;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00EC4BA2B72AD2200F4BC26 /* testbarber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00EC4DF2B72AD2500F4BC26 /* Build configuration list for PBXNativeTarget "testbarber" */;
+			buildPhases = (
+				D00EC4B72B72AD2200F4BC26 /* Sources */,
+				D00EC4B82B72AD2200F4BC26 /* Frameworks */,
+				D00EC4B92B72AD2200F4BC26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testbarber;
+			productName = testbarber;
+			productReference = D00EC4BB2B72AD2200F4BC26 /* testbarber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D00EC4CA2B72AD2500F4BC26 /* testbarberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00EC4E22B72AD2500F4BC26 /* Build configuration list for PBXNativeTarget "testbarberTests" */;
+			buildPhases = (
+				D00EC4C72B72AD2500F4BC26 /* Sources */,
+				D00EC4C82B72AD2500F4BC26 /* Frameworks */,
+				D00EC4C92B72AD2500F4BC26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D00EC4CD2B72AD2500F4BC26 /* PBXTargetDependency */,
+			);
+			name = testbarberTests;
+			productName = testbarberTests;
+			productReference = D00EC4CB2B72AD2500F4BC26 /* testbarberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D00EC4D42B72AD2500F4BC26 /* testbarberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00EC4E52B72AD2500F4BC26 /* Build configuration list for PBXNativeTarget "testbarberUITests" */;
+			buildPhases = (
+				D00EC4D12B72AD2500F4BC26 /* Sources */,
+				D00EC4D22B72AD2500F4BC26 /* Frameworks */,
+				D00EC4D32B72AD2500F4BC26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D00EC4D72B72AD2500F4BC26 /* PBXTargetDependency */,
+			);
+			name = testbarberUITests;
+			productName = testbarberUITests;
+			productReference = D00EC4D52B72AD2500F4BC26 /* testbarberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00EC4B32B72AD2200F4BC26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D00EC4BA2B72AD2200F4BC26 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					D00EC4CA2B72AD2500F4BC26 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D00EC4BA2B72AD2200F4BC26;
+					};
+					D00EC4D42B72AD2500F4BC26 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D00EC4BA2B72AD2200F4BC26;
+					};
+				};
+			};
+			buildConfigurationList = D00EC4B62B72AD2200F4BC26 /* Build configuration list for PBXProject "testbarber" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00EC4B22B72AD2200F4BC26;
+			productRefGroup = D00EC4BC2B72AD2200F4BC26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00EC4BA2B72AD2200F4BC26 /* testbarber */,
+				D00EC4CA2B72AD2500F4BC26 /* testbarberTests */,
+				D00EC4D42B72AD2500F4BC26 /* testbarberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00EC4B92B72AD2200F4BC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00EC4C62B72AD2500F4BC26 /* Preview Assets.xcassets in Resources */,
+				D00EC4C32B72AD2500F4BC26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00EC4C92B72AD2500F4BC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00EC4D32B72AD2500F4BC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00EC4B72B72AD2200F4BC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00EC4F02B72B30400F4BC26 /* ShopView.swift in Sources */,
+				D00EC5072B7AAEB100F4BC26 /* TatooRow.swift in Sources */,
+				D00EC4F22B72E2E500F4BC26 /* Persons.swift in Sources */,
+				D00EC4EE2B72B2EE00F4BC26 /* TattooParlorView.swift in Sources */,
+				D00EC4F52B7A89EF00F4BC26 /* SalonDetailView.swift in Sources */,
+				D00EC5052B7AAE8400F4BC26 /* Tatoo.swift in Sources */,
+				D00EC5092B7AAEF300F4BC26 /* TatooDetailView.swift in Sources */,
+				D00EC4EA2B72B24200F4BC26 /* OptionsView.swift in Sources */,
+				D00EC4C12B72AD2200F4BC26 /* ContentView.swift in Sources */,
+				D00EC4EC2B72B2D600F4BC26 /* SalonView.swift in Sources */,
+				D00EC4BF2B72AD2200F4BC26 /* testbarberApp.swift in Sources */,
+				D00EC4FA2B7A906200F4BC26 /* Salon.swift in Sources */,
+				D00EC5032B7AAA6200F4BC26 /* DateChooserView.swift in Sources */,
+				D00EC4FC2B7A909300F4BC26 /* Rows.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00EC4C72B72AD2500F4BC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00EC4D02B72AD2500F4BC26 /* testbarberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00EC4D12B72AD2500F4BC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00EC4DC2B72AD2500F4BC26 /* testbarberUITestsLaunchTests.swift in Sources */,
+				D00EC4DA2B72AD2500F4BC26 /* testbarberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D00EC4CD2B72AD2500F4BC26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D00EC4BA2B72AD2200F4BC26 /* testbarber */;
+			targetProxy = D00EC4CC2B72AD2500F4BC26 /* PBXContainerItemProxy */;
+		};
+		D00EC4D72B72AD2500F4BC26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D00EC4BA2B72AD2200F4BC26 /* testbarber */;
+			targetProxy = D00EC4D62B72AD2500F4BC26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D00EC4DD2B72AD2500F4BC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D00EC4DE2B72AD2500F4BC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D00EC4E02B72AD2500F4BC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"testbarber/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.testbarber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D00EC4E12B72AD2500F4BC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"testbarber/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.testbarber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D00EC4E32B72AD2500F4BC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.testbarberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testbarber.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testbarber";
+			};
+			name = Debug;
+		};
+		D00EC4E42B72AD2500F4BC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.testbarberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testbarber.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testbarber";
+			};
+			name = Release;
+		};
+		D00EC4E62B72AD2500F4BC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.testbarberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testbarber;
+			};
+			name = Debug;
+		};
+		D00EC4E72B72AD2500F4BC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.testbarberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testbarber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D00EC4B62B72AD2200F4BC26 /* Build configuration list for PBXProject "testbarber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00EC4DD2B72AD2500F4BC26 /* Debug */,
+				D00EC4DE2B72AD2500F4BC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00EC4DF2B72AD2500F4BC26 /* Build configuration list for PBXNativeTarget "testbarber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00EC4E02B72AD2500F4BC26 /* Debug */,
+				D00EC4E12B72AD2500F4BC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00EC4E22B72AD2500F4BC26 /* Build configuration list for PBXNativeTarget "testbarberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00EC4E32B72AD2500F4BC26 /* Debug */,
+				D00EC4E42B72AD2500F4BC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00EC4E52B72AD2500F4BC26 /* Build configuration list for PBXNativeTarget "testbarberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00EC4E62B72AD2500F4BC26 /* Debug */,
+				D00EC4E72B72AD2500F4BC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00EC4B32B72AD2200F4BC26 /* Project object */;
+}
